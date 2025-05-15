@@ -1,5 +1,6 @@
 import React from "react";
-
+import { CardHoverEffectDemo } from "./ui/cardhoverdemo";
+import { BentoGridDemo } from "./ui/bentogriddemo";
 const Features = () => {
     return (
         <div className="absolute z-50 top-[95rem] w-full bg-black py-20">
@@ -16,8 +17,17 @@ const Features = () => {
                 Benefits designed to provide a seamless, secure, and accessible
                 experience for all users.
             </div>
-            <div className="flex justify-center border border-gray-500 py-[20rem] max-w-6xl mx-auto">
-                
+            <div className="flex justify-center border  py-[20rem]  mx-auto">
+                <CardHoverEffectDemo/>
+            </div>
+            <div className="absolute text-3xl font-bold text-white z-50 text-center pl-[57rem]">
+                How It Works
+            </div>
+            <div className="absolute z-50 text-1xl font-thin text-gray-400 pl-[45rem] top-[67rem]">
+                A simple, fast, and secure platform to manage your cryptocurrencies in just a few steps.
+            </div>
+            <div>
+                <BentoGridDemo/>
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-5 absolute z-50 top-[25rem] shadow-2xl border border-white " >
+    <div className="max-w-5xl mx-5 px-5 absolute z-50 top-[27rem] shadow-2xl border border-white " >
       <HoverEffect items={projects} />
     </div>
   );

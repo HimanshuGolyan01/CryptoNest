@@ -57,7 +57,7 @@ const Hero = () => {
                     alt="Dashboard"
                     width={1000}
                     height={500}
-                    className="rounded-xl shadow-2xl absolute -top-30 border-2 border-[#23372f]"
+                    className="rounded-xl shadow-2xl absolute -top-30 border-2 border-[#23372f] w-65 md:w-[45rem] lg:w-[5rem]"
                 />
             </div>
             <HeroHighlight />

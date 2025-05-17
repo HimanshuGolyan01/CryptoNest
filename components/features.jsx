@@ -4,13 +4,13 @@ import { BentoGridDemo } from "./ui/bentogriddemo";
 
 const Features = () => {
     return (
-        <div className="relative z-50 w-full bg-black py-20 px-4 md:py-[10rem]">
-            <div className="text-white text-2xl md:text-3xl font-bold text-center max-w-5xl mx-auto">
+        <div className="relative z-50 w-full bg-black py-20 px-4 md:py-[10rem] lg:py-[30rem]">
+            <div className="text-white text-2xl md:text-3xl font-bold text-center max-w-5xl mx-auto]">
                 Simplicity, performance, and security, empowering you to
                 navigate the digital world with confidence and agility.
             </div>
 
-            <div className="text-lg md:text-xl font-bold text-white text-center mt-10">
+            <div className="text-lg md:text-xl font-bold text-white text-center mt-10 md:mt-20">
                 Why Choose Cryptix?
             </div>
 
@@ -23,7 +23,7 @@ const Features = () => {
                 <CardHoverEffectDemo />
             </div>
 
-            <div className="text-2xl md:text-3xl font-bold text-white text-center mt-[77rem] mb-4">
+            <div className="text-2xl md:text-3xl font-bold text-white text-center mt-[77rem] md:mt-[35rem] lg:mt-[25rem]  ">
                 How It Works
             </div>
 

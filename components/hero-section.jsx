@@ -51,13 +51,13 @@ const Hero = () => {
                 <StarIcon />
                 <Globe />
             </div>
-            <div className="absolute top-[42rem] z-30 w-full h-screen mt-32 flex justify-center bg-black">
+            <div className="absolute top-[42rem] z-60 w-full h-screen mt-32 flex justify-center">
                 <Image
                     src="/Dashboard.png"
                     alt="Dashboard"
                     width={1000}
                     height={500}
-                    className="rounded-xl shadow-2xl absolute -top-30 border-2 border-[#23372f] w-65 md:w-[45rem] lg:w-[5rem]"
+                    className="rounded-xl shadow-2xl absolute -top-30 border-2 border-[#23372f] w-65 md:w-[45rem] lg:w-[50rem]"
                 />
             </div>
             <HeroHighlight />

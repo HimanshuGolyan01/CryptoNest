@@ -5,7 +5,7 @@ import { BentoGridDemo } from "./ui/bentogriddemo";
 const Features = () => {
     return (
         <div className="relative z-50 w-full bg-black py-20 px-4 md:py-[10rem] lg:py-[30rem]">
-            <div className="text-white text-2xl md:text-3xl font-bold text-center max-w-5xl mx-auto]">
+            <div className="text-white text-2xl md:text-3xl font-bold text-center max-w-5xl mx-auto">
                 Simplicity, performance, and security, empowering you to
                 navigate the digital world with confidence and agility.
             </div>

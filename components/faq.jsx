@@ -33,7 +33,7 @@ const FaqSection = () => {
   };
 
   return (
-      <div className="absolute z-50 top-[190rem] bg-black w-full mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div className="absolute z-50 top-[215rem] md:top-[160rem] lg:top-[170rem] bg-black w-full mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto text-center relative">
         <h2 className="text-3xl font-bold text-white">Still have questions?</h2>
         <p className="mt-2 text-gray-200">

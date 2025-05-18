@@ -6,9 +6,9 @@ export const Spotlight = ({
   fill
 }) => {
   return (
-    (<svg
+    <svg
       className={cn(
-        "animate-spotlight pointer-events-none absolute z-[1]  min-h-[180rem] w-[138%] lg:w-[84%] ",
+        "animate-spotlight pointer-events-none absolute z-[1]  h-[169%] w-[138%] lg:w-[84%] opacity-0",
         className
       )}
       xmlns="http://www.w3.org/2000/svg"
@@ -38,9 +38,6 @@ export const Spotlight = ({
           <feGaussianBlur stdDeviation="151" result="effect1_foregroundBlur_1065_8"></feGaussianBlur>
         </filter>
       </defs>
-    </svg>)
+    </svg>
   );
 };
-
-
-
